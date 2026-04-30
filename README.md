@@ -12,7 +12,7 @@
 
   <p>
     <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg" alt="License"></a>
-    <a href="https://github.com/mega-edo/mega-security"><img src="https://img.shields.io/badge/Toolkit-mega--security-7C3AED" alt="Toolkit"></a>
+    <a href="https://github.com/mega-edo/mega-security"><img src="https://img.shields.io/badge/mega--security-plugin-7C3AED" alt="mega-security"></a>
     <a href="#-headline-finding"><img src="https://img.shields.io/badge/Best%20setup-small%20%2B%20optimize-10b981" alt="Best setup"></a>
     <a href="#-the-leaderboard"><img src="https://img.shields.io/badge/Cells%20at%20DSR%20%E2%89%A50.94-23%2F24-success" alt="Ship-ready cells"></a>
     <a href="#-methodology"><img src="https://img.shields.io/badge/Pool-400%20vetted%20probes-orange" alt="Probe pool"></a>
@@ -24,7 +24,7 @@
     <a href="#-implications">Implications</a> ·
     <a href="#-per-category-patterns">Per-category</a> ·
     <a href="#-methodology">Methodology</a> ·
-    <a href="https://github.com/mega-edo/mega-security">Toolkit ↗</a> ·
+    <a href="https://github.com/mega-edo/mega-security">mega-security ↗</a> ·
     <a href="https://megacode.ai"><strong>megacode.ai ↗</strong></a>
   </p>
 </div>
@@ -320,7 +320,7 @@ Pass both → ACCEPTED → `optimized_final.txt` is updated. Scoring-gate regres
 
 ## 🚀 Measure your own model
 
-These numbers come from the `mega-security` toolkit. To run the same measurement against **your** system prompt and **your** model, install the plugin in any Claude Code session:
+These numbers come from `mega-security`. To run the same measurement against **your** system prompt and **your** model, install the plugin in any Claude Code session:
 
 ```bash
 /plugin marketplace add https://github.com/mega-edo/mega-security
@@ -333,7 +333,7 @@ Then run `/prompt-check` (5–10 min diagnosis) and optionally `/prompt-optimize
 
 ## 📚 Related
 
-- **[mega-security toolkit](https://github.com/mega-edo/mega-security)** — the `prompt-check` / `prompt-optimize` Claude Code commands behind these numbers
+- **[mega-security](https://github.com/mega-edo/mega-security)** — the `prompt-check` / `prompt-optimize` Claude Code commands behind these numbers
 - **[megacode.ai](https://megacode.ai)** — autonomous skill curation, optimization, and evaluation for production AI systems
 
 ---
