@@ -318,21 +318,16 @@ Pass both → ACCEPTED → `optimized_final.txt` is updated. Scoring-gate regres
 
 ---
 
-## 🚀 Reproduce
+## 🚀 Measure your own model
+
+These numbers come from the `mega-security` toolkit. To run the same measurement against **your** system prompt and **your** model, install the plugin in any Claude Code session:
 
 ```bash
-# Clone the toolkit (which contains the leaderboard scripts)
-git clone https://github.com/mega-edo/mega-security
-cd mega-security
-
-# Re-generate the frozen attack pool (one-time, deterministic)
-python leaderboard/scripts/generate_probes.py
-
-# Run the full 24-cell sweep
-python leaderboard/scripts/run_sweep.py --sonnet
+/plugin marketplace add https://github.com/mega-edo/mega-security
+/plugin install mega-security@mega-security
 ```
 
-Per-cell raw outputs land under `leaderboard/runs/<timestamp>/`. The `manifest.json` contains the sha256 of the probe pool — runs with matching fingerprints are directly comparable across machines.
+Then run `/prompt-check` (5–10 min diagnosis) and optionally `/prompt-optimize` (Pareto-gated hardening loop). Same vetted attack pool, same acceptance gates, comparable scores. Full setup → **[mega-security README](https://github.com/mega-edo/mega-security)**.
 
 ---
 
