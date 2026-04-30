@@ -5,7 +5,7 @@
     <img src="./logo_mega_code.svg" alt="MEGA Security" width="320">
   </a>
 
-  <h1>mega-security · leaderboard</h1>
+  <h1>MEGA Security · Leaderboard</h1>
 
   <p><strong>How well do today's frontier and small LLMs defend their system prompts — and how much does <code>prompt-optimize</code> change that?</strong><br>
   A 24-cell sweep across 4 vendors × 2 tiers × 3 production scenarios.</p>
@@ -324,7 +324,7 @@ These numbers come from `mega-security`. To run the same measurement against **y
 
 ```bash
 /plugin marketplace add https://github.com/mega-edo/mega-security
-/plugin install mega-security@mega-security
+/plugin install mega-edo@mega-security
 ```
 
 Then run `/prompt-check` (5–10 min diagnosis) and optionally `/prompt-optimize` (Pareto-gated hardening loop). Same vetted attack pool, same acceptance gates, comparable scores. Full setup → **[mega-security README](https://github.com/mega-edo/mega-security)**.
