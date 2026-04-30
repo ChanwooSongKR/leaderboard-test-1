@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://megacode.ai">
-    <img src="./logo_mega_code.png" alt="MEGA Security" width="320">
+    <img src="./logo_mega_code.svg" alt="MEGA Security" width="320">
   </a>
 
   <h1>mega-security · leaderboard</h1>
@@ -345,7 +345,7 @@ Then run `/prompt-check` (5–10 min diagnosis) and optionally `/prompt-optimize
 
   <p>
     <a href="https://megacode.ai">
-      <img src="./logo_mega_code.png" alt="megacode.ai" width="180">
+      <img src="./logo_mega_code.svg" alt="megacode.ai" width="180">
     </a>
   </p>
 </div>
